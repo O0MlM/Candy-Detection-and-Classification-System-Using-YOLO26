@@ -1,7 +1,8 @@
 # AI_YOLO
 
 โปรเจกต์สำหรับการพัฒนาโมเดลปัญญาประดิษฐ์ด้วย **YOLO26** สำหรับตรวจจับและจำแนกวัตถุจากภาพ วิดีโอ และกล้องแบบ Real-time โดยใช้ **Ultralytics YOLO** ร่วมกับ **Label Studio** สำหรับสร้าง Dataset และกำหนด Bounding Box
-
+drive สำหรับโหลด Video Dataset, Test image และ Video test
+: https://drive.google.com/drive/folders/1ERlu3liw6lM2_fEC7ENjsPka92Qg8upJ?usp=sharing
 ---
 
 ## 📂 Project Structure
