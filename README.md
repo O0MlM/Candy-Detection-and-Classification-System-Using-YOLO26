@@ -471,6 +471,8 @@ python 02-train.py
 03-test_image.py
 ```
 
+![Frame](images/image_test_result.png)
+
 แก้ชื่อไฟล์ภาพที่ต้องการทดสอบ
 
 ```python
@@ -484,6 +486,8 @@ python 03-test_image.py
 ```
 
 ผลลัพธ์จะถูกบันทึกโดยระบบ Ultralytics และสามารถดูภาพที่ตรวจจับแล้วได้
+
+![Frame](images/image_result.png)
 
 ---
 
@@ -507,11 +511,15 @@ video_to_test = "video_candy1.MOV"
 python 04-test_video.py
 ```
 
+![Frame](images/video_test_result.png)
+
 ผลลัพธ์จะถูกบันทึกไว้ใน
 
 ```text
 runs/detect/predict
 ```
+
+![Frame](images/video_result.png)
 
 ---
 
@@ -530,6 +538,8 @@ python 05-test-camera.py
 ```
 
 ระบบจะเปิดกล้องและแสดงผลการตรวจจับแบบ Real-time
+
+![Frame](images/cam_result.png)
 
 กด
 
