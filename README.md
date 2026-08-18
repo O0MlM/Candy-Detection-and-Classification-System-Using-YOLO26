@@ -471,8 +471,6 @@ python 02-train.py
 03-test_image.py
 ```
 
-![Frame](images/img_test_result.png)
-
 แก้ชื่อไฟล์ภาพที่ต้องการทดสอบ
 
 ```python
@@ -484,6 +482,9 @@ results = model.predict("FILE_NAME", conf=0.01, save=True)
 ```bash
 python 03-test_image.py
 ```
+
+![Frame](images/img_test_result.png)
+
 
 ผลลัพธ์จะถูกบันทึกโดยระบบ Ultralytics และสามารถดูภาพที่ตรวจจับแล้วได้
 
