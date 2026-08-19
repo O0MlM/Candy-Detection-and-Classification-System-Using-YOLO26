@@ -39,27 +39,6 @@ AI_YOLO/
 
 ---
 
-## 2. Install Environment
-
-```bash
-pip install -U ultralytics
-pip install opencv-python matplotlib
-```
-
----
-
-## 3. Install PyTorch สำหรับ NVIDIA GPU
-
-หากใช้งาน **Windows + NVIDIA GPU + CUDA 12.1** สามารถติดตั้ง PyTorch ด้วยคำสั่ง
-
-```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-```
-
-> หากใช้งาน CPU หรือ macOS ไม่จำเป็นต้องใช้คำสั่ง CUDA นี้
-
----
-
 # 🏷️ Image Labeling
 
 โปรเจกต์นี้ใช้ **Label Studio** สำหรับสร้าง Bounding Box และกำหนด Class ของวัตถุ
@@ -109,7 +88,28 @@ source ./env/bin/activate
 
 ---
 
-## 3. ติดตั้ง Dependencies
+## 2. Install Environment
+
+```bash
+pip install -U ultralytics
+pip install opencv-python matplotlib
+```
+
+---
+
+## 3. Install PyTorch สำหรับ NVIDIA GPU
+
+หากใช้งาน **Windows + NVIDIA GPU + CUDA 12.1** สามารถติดตั้ง PyTorch ด้วยคำสั่ง
+
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+> หากใช้งาน CPU หรือ macOS ไม่จำเป็นต้องใช้คำสั่ง CUDA นี้
+
+---
+
+## 4. ติดตั้ง Dependencies
 ต่อไปจะต้องติดตั้ง Package python  โดยทำตามขั้นตอนนี้ได้เลย   
 
 Upgrade pip:
